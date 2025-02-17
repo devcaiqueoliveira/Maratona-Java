@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3935adc0-89c1-46e6-9b4c-fc6f06c54fd2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3935adc0-89c1-46e6-9b4c-fc6f06c54fd2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,12 +23,12 @@
     &quot;assignee&quot;: &quot;devcaiqueoliveira&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/devcaiqueoliveira/Maratona-Java.git",
-    "accountId": "d1155b99-63d0-4e6a-a8cf-c65dc0bb3e78"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/devcaiqueoliveira/Maratona-Java.git&quot;,
+    &quot;accountId&quot;: &quot;d1155b99-63d0-4e6a-a8cf-c65dc0bb3e78&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
