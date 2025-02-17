@@ -16,7 +16,7 @@ public class aulaOperadores {
 
 
         System.out.println("Dez é igual vinte? " + isDezIgualVinte);
-        System.out.println("Dez é igual dez? " + isDezIgualDez);
+        System.out.println("Dez é igual dez? " + isDezIgualDez);    
         System.out.println("Dez é diferente de dez? " + isDezDiferenteDez);
     }
 }
