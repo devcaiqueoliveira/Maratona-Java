@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3935adc0-89c1-46e6-9b4c-fc6f06c54fd2" name="Changes" comment="" />
+    <list default="true" id="3935adc0-89c1-46e6-9b4c-fc6f06c54fd2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maratona-Java/src/javacore/Aintroductionclasses/domain/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maratona-Java/src/javacore/Aintroductionclasses/domain/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maratona-Java/src/javacore/Aintroductionclasses/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maratona-Java/src/javacore/Aintroductionclasses/test/Car01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maratona-Java/src/javacore/Aintroductionclasses/test/ProfessorTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maratona-Java/src/javacore/Aintroductionclasses/test/StudentTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maratona-Java/src/javacore/Aintroductionclasses/test/StudentTeste02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
