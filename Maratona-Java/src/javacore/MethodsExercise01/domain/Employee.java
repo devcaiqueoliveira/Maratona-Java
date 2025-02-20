@@ -8,12 +8,20 @@ public class Employee {
     public void print () {
         System.out.println(this.name);
         System.out.println(this.age);
+        if (salaries == null) {
+            return;
+        }
         for (double salary : salaries) {
             System.out.print(salary + " ");
         }
+
+        printSalary();
     }
 
     public void printSalary () {
+        if (salaries == null) {
+            return;
+        }
         double averageSalary = 0;
         for (double salary: salaries) {
             averageSalary += salary;

@@ -10,6 +10,5 @@ public class EmployeeTest01 {
         employee.salaries = new double[] {987.90, 2000, 1250.98};
 
         employee.print();
-        employee.printSalary();
     }
 }
