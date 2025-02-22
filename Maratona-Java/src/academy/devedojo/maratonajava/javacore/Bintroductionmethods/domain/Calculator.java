@@ -1,4 +1,4 @@
-package javacore.Bintroductionmethods.domain;
+package academy.devedojo.maratonajava.javacore.Bintroductionmethods.domain;
 
 import java.util.Scanner;
 

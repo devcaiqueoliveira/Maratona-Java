@@ -1,6 +1,6 @@
-package javacore.MethodsExercise01.test;
+package academy.devedojo.maratonajava.javacore.MethodsExercise01.test;
 
-import javacore.MethodsExercise01.domain.Employee;
+import academy.devedojo.maratonajava.javacore.MethodsExercise01.domain.Employee;
 
 public class EmployeeTest01 {
     public static void main(String[] args) {

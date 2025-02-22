@@ -1,4 +1,4 @@
-package javacore.MethodsExercise01.domain;
+package academy.devedojo.maratonajava.javacore.MethodsExercise01.domain;
 
 public class Employee {
     public String name;
