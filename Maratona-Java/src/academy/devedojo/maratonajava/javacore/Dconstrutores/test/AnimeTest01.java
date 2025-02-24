@@ -1,17 +1,8 @@
 package academy.devedojo.maratonajava.javacore.Dconstrutores.test;
+import academy.devedojo.maratonajava.javacore.Dconstrutores.domain.Anime;
 
 public class AnimeTest01 {
+    public static void main(String[] args) {
 
-    private String name, genero, tipo;
-    private int epsodios;
-
-    public AnimeTest01 (String name, String genero, String tipo, int epsodios) {
-        this.name = name;
-        this.genero = genero;
-        this.tipo = tipo;
-        this.epsodios = epsodios;
-    }
-    public void printar() {
-        System.out.println(toString());
     }
 }
