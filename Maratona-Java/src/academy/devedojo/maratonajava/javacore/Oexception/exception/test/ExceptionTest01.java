@@ -15,6 +15,7 @@ public class ExceptionTest01 {
             System.out.println("Arquivo criado "+isCriado);
         } catch (IOException e) {
             e.printStackTrace();
+            e.printStackTrace();
         }
     }
 }
