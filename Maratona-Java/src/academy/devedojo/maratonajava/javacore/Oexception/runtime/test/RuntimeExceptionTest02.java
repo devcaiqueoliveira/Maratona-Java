@@ -1,6 +1,6 @@
 package academy.devedojo.maratonajava.javacore.Oexception.runtime.test;
 
-public class RunTimeTest02 {
+public class RuntimeExceptionTest02 {
     public static void main(String[] args) {
         divisao(1,0);
         System.out.println("teste");

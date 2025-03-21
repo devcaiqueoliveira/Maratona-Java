@@ -2,6 +2,7 @@ package academy.devedojo.maratonajava.javacore.Oexception.exception.test;
 
 import java.io.File;
 import java.io.IOException;
+import java.rmi.RemoteException;
 
 public class ExceptionTest02 {
     public static void main(String[] args) throws IOException{
@@ -15,6 +16,7 @@ public class ExceptionTest02 {
             System.out.println("Arquivo criado "+isCriado);
         } catch (IOException e) {
             e.printStackTrace();
+            throw e;
         }
     }
 }
