@@ -18,6 +18,6 @@ public class ExceptionTest02 {
         } catch (IOException e) {
             e.printStackTrace();
             throw e;
-        }
+        } */
     }
 }
