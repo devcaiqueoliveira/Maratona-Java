@@ -15,7 +15,7 @@ public class AlunoTest01 {
 
         Aluno[] alunos = new Aluno[n];
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n;i++)  {
             System.out.println("\n--- Cadastro do Aluno " + (i + 1) +  " ---");
             sc.nextLine();
 
