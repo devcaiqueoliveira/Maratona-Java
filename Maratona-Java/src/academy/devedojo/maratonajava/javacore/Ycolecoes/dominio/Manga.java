@@ -6,6 +6,7 @@ public class Manga implements Comparable<Manga> {
     private Long id;
     private String name;
     private double price;
+    private int quantidade;
 
     public Manga(Long id, String name, double price) {
         Objects.requireNonNull(id, "Id não pode ser null");
@@ -13,6 +14,19 @@ public class Manga implements Comparable<Manga> {
         this.id = id;
         this.name = name;
         this.price = price;
+    }
+
+    public Manga(Long id, String name, double price, int quantidade) {
+        this(id, name, price);
+        this.quantidade = quantidade;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
     }
 
     public Long getId() {
@@ -43,12 +57,12 @@ public class Manga implements Comparable<Manga> {
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
         Manga manga = (Manga) o;
-        return Double.compare(price, manga.price) == 0 && Objects.equals(id, manga.id) && Objects.equals(name, manga.name);
+        return Objects.equals(id, manga.id) && Objects.equals(name, manga.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, price);
+        return Objects.hash(id, name);
     }
 
     @Override
@@ -57,6 +71,7 @@ public class Manga implements Comparable<Manga> {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", price=" + price +
+                ", quantidade=" + quantidade +
                 '}';
     }
 
